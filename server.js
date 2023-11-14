@@ -8,7 +8,7 @@ app.listen(3000, () => {
 // const DB_HOST =
 //   "mongodb+srv://admin:adminadmin@cluster0.fumjo3k.mongodb.net/db-contacts?retryWrites=true&w=majority";
 
-const { DB_HOST, PORT = 3000 } = process.env;
+const { DB_HOST, PORT = 3000 } = process.env.DB_HOST;
 
 mongoose
   .connect(DB_HOST)
