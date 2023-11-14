@@ -1,6 +1,3 @@
-// const DB_HOST =
-//   "mongodb+srv://admin:admin@cluster0.fumjo3k.mongodb.net/db-contacts?retryWrites=true&w=majority";
-
 const app = require("./app");
 const mongoose = require("mongoose");
 
